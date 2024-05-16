@@ -1,4 +1,5 @@
-This is a demo that showcases using CopilotKit to build a voice driven PowerPoint like web app.
+This is a demo that showcases building a PowerPoint-like web app powered by CopilotKit - with the **experimental voice driven UX**.
+For the standard non-voice example app, see https://github.com/CopilotKit/presentation-demo .
 
 ## Deploy with Vercel
 
