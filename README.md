@@ -1,4 +1,4 @@
-This is a demo that showcases using CopilotKit to build a PowerPoint like web app.
+This is a demo that showcases using CopilotKit to build a voice driven PowerPoint like web app.
 
 ## Deploy with Vercel
 
@@ -31,6 +31,20 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+# Voice Capabilities
+
+Have a look at `app/page.tsx` to see how the voice capabilities are configured.
+
+```tsx
+  <CopilotKit
+    publicApiKey={process.env.NEXT_PUBLIC_COPILOT_CLOUD_API_KEY}
+    // Alternatively, you can use runtimeUrl to host your own CopilotKit Runtime
+    // runtimeUrl="/api/copilotkit"
+    transcribeAudioUrl="/api/transcribe"
+    textToSpeechUrl="/api/tts"
+  >
+```
 
 ## Zoom in on the CopilotKit code
 
